@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Product Landing Page" />
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <title>Document</title>
+    <!-- CSS Swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- Remix Icons Styles -->
+    <link rel="stylesheet" href="icons/remixicon.css" />
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/styles-min.css" />
+  </head>
+
+  <body>
+    <!-- Start Header -->
+    <div class="header">
+      <div class="header__container container flex">
+        <a href="#" class="header__logo"
+          ><img src="images/logo.svg" alt="Brand logo"
+        /></a>
+        <nav class="header__nav">
+          <ul class="header__menu flex">
+            <li class="header__item">
+              <a class="header__link header__link-active link-custom" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="header__item">
+              <a class="header__link link-custom" href="#">About</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link link-custom" href="#">Features</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link link-custom" href="#">Pricing</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link link-custom" href="#">Blog</a>
+            </li>
+          </ul>
+          <a href="#" class="header__nav-cta link-btn-primary">Get a Demo</a>
+        </nav>
+        <a href="#" class="header__cta link-btn-primary">Get a Demo</a>
+        <button class="header__menu-toggle btn-custom" aria-label="Toggle Menu">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Start Hero -->
+    <section class="hero">
+      <div class="hero__container container">
+        <h1 class="hero__title h1 text-effect">
+          A CRM dashboard for engineering teams
+        </h1>
+        <p class="hero__description subtitle-lg">
+          Rorem ipsum dolor sit amet consectetur. Gravida convallis orci
+          ultrices non. Ultricies tempor at ut cursus mi. Aliquam sed amet vitae
+          orci ac penatibus consectetur.
+        </p>
+        <div class="hero__cta flex">
+          <a href="#" class="hero__cta-link link-btn-primary">Get a Demo</a>
+          <a href="#" class="hero__cta-link link-btn-secondary">View Pricing</a>
+        </div>
+        <img
+          loading="lazy"
+          src="images/hero.svg"
+          alt="Hero Dashboard Image"
+          class="hero__image"
+        />
+      </div>
+    </section>
+
+    <!-- Start Features -->
+    <section class="features container">
+      <div class="features__header flex">
+        <h2 class="features__title h2 text-effect">
+          Powerful features to help you manage all your leads
+        </h2>
+        <p class="features__description subtitle-rg">
+          Apsum dolor sit amet consectetur. Aliquam elementum elementum in
+          ultrices. Dui maecenas ut eros turpis ultrices metus morbi aliquet
+          vel.
+        </p>
+      </div>
+      <div class="features__list">
+        <div class="features__item">
+          <img
+            loading="lazy"
+            src="images/users.svg"
+            alt="User information"
+            class="features__item-image"
+          />
+          <h3 class="features__item-title h6">User information</h3>
+          <p class="features__item-description paragraph-rg">
+            Borem ipsum dolor sit amet consectetur. Turpis tristique nulla
+            posuere et amet arcu dictum ultricies convallis.
+          </p>
+        </div>
+        <div class="features__item">
+          <img
+            loading="lazy"
+            src="images/deal.svg"
+            alt="Deal tracking"
+            class="features__item-image"
+          />
+          <h3 class="features__item-title h6">Deal tracking</h3>
+          <p class="features__item-description paragraph-rg">
+            Worem ipsum dolor sit amet consectetur. Turpis tristique nulla
+            posuere et amet arcu dictum ultricies convallis.
+          </p>
+        </div>
+        <div class="features__item">
+          <img
+            loading="lazy"
+            src="images/pipeline.svg"
+            alt="Pipeline management"
+            class="features__item-image"
+          />
+          <h3 class="features__item-title h6">Pipeline management</h3>
+          <p class="features__item-description paragraph-rg">
+            Dorem ipsum dolor sit amet consectetur. Turpis tristique nulla
+            posuere et amet arcu dictum ultricies convallis.
+          </p>
+        </div>
+        <div class="features__item">
+          <img
+            src="images/report.svg"
+            alt="Reporting dashboard"
+            class="features__item-image"
+          />
+          <h3 class="features__item-title h6">Reporting dashboard</h3>
+          <p class="features__item-description paragraph-rg">
+            Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla
+            posuere et amet arcu dictum ultricies convallis.
+          </p>
+        </div>
+        <div class="features__item">
+          <img
+            src="images/meeting.svg"
+            alt="Meeting scheduling"
+            class="features__item-image"
+          />
+          <h3 class="features__item-title h6">Meeting scheduling</h3>
+          <p class="features__item-description paragraph-rg">
+            Bem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere
+            et amet arcu dictum ultricies convallis.
+          </p>
+        </div>
+        <div class="features__item">
+          <img
+            src="images/email.svg"
+            alt="Email tracking"
+            class="features__item-image"
+          />
+          <h3 class="features__item-title h6">Email tracking</h3>
+          <p class="features__item-description paragraph-rg">
+            Keem ipsum dolor sit amet consectetur. Turpis tristique nulla
+            posuere et amet arcu dictum ultricies convallis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Apps -->
+    <section class="apps container">
+      <div class="apps__header">
+        <h2 class="apps__title h2 text-effect">
+          Essential apps that protect your
+        </h2>
+        <ul class="apps__list flex">
+          <li class="apps_list-item flex">
+            <img
+              loading="lazy"
+              src="images/apps/email.svg"
+              alt="Email App"
+              class="apps_list-image"
+            />
+            <span class="apps_list-text text-effect h3">Email,</span>
+          </li>
+          <li class="apps_list-item flex">
+            <img
+              loading="lazy"
+              src="images/apps/event.svg"
+              alt="Events App"
+              class="apps_list-image"
+            />
+            <span class="apps_list-text text-effect h3">Events,</span>
+          </li>
+          <li class="apps_list-item flex">
+            <img
+              loading="lazy"
+              src="images/apps/files.svg"
+              alt="Files App"
+              class="apps_list-image"
+            />
+            <span class="apps_list-text text-effect h3">Files,</span>
+          </li>
+          <li class="apps_list-item flex">
+            <img
+              loading="lazy"
+              src="images/apps/document.svg"
+              alt="Documents App"
+              class="apps_list-image"
+            />
+            <span class="apps_list-text text-effect h3">Documents</span>
+          </li>
+        </ul>
+      </div>
+      <div class="apps__feature">
+        <div class="apps__feature-item flex">
+          <div class="apps__feature-content">
+            <h3 class="apps__feature-title h5">
+              End-to-end encrypted inbox and messages
+            </h3>
+            <p class="apps__feature-description paragraph-rg">
+              Rorem ipsum dolor sit amet consectetur. Proin dignissim tortor
+              mauris viverra sed volutpat mauris. Amet nisi amet commodo
+              adipiscing ut imperdiet nunc.
+            </p>
+            <a href="#" class="apps__feature-link link-btn-secondary">
+              Learn More
+            </a>
+          </div>
+          <div class="apps__feature-image flex flex-center">
+            <img
+              src="images/end-to-end.svg"
+              loading="lazy"
+              alt="End-to-end encrypted inbox"
+            />
+          </div>
+        </div>
+        <div class="apps__feature-item flex">
+          <div class="apps__feature-content">
+            <h3 class="apps__feature-title h5">Mobile applications</h3>
+            <p class="apps__feature-description paragraph-rg">
+              Prem ipsum dolor sit amet consectetur. Viverra sed dignissim risus
+              aliquet condimentum. Vulputate varius feugiat egestas congue
+            </p>
+            h
+          </div>
+          <div class="apps__feature-image flex flex-center">
+            <img
+              src="images/mobile-app.svg"
+              loading="lazy"
+              alt="Mobile applications"
+            />
+          </div>
+        </div>
+        <div class="apps__feature-item flex">
+          <div class="apps__feature-content">
+            <h3 class="apps__feature-title h5">
+              Upload, share, and preview any file
+            </h3>
+            <p class="apps__feature-description paragraph-rg">
+              Tellus et adipiscing sit sit mauris pharetra bibendum. Ligula
+              massa netus nulla ultricies purus.
+            </p>
+          </div>
+          <div class="apps__feature-image flex flex-center">
+            <img
+              loading="lazy"
+              src="images/upload.svg"
+              alt="Upload, share, and preview any file"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="apps__buttons flex">
+        <a href="#" class="hero__cta-link link-btn-primary">Get a Started</a>
+        <a href="#" class="hero__cta-link link-btn-secondary"
+          >Browse all features</a
+        >
+      </div>
+    </section>
+
+    <!-- Start Information-->
+    <section class="information container">
+      <div class="information__container">
+        <div class="information__header flex">
+          <div class="information__content">
+            <h2 class="information__title h3 text-effect">
+              Transparent, audited, &open source
+            </h2>
+            <p class="information__description">
+              Torem ipsum dolor sit amet consectetur. Nulla quisque scelerisque
+              eget quis. Eu amet amet eu interdum.
+            </p>
+            <a href="#" class="information__link link-btn-secondary"
+              >Browse all features</a
+            >
+          </div>
+          <div class="information__image">
+            <img
+              src="images/info-code.svg"
+              loading="lazy"
+              alt="Image Contain a Code"
+            />
+          </div>
+        </div>
+        <div class="information__previews">
+          <div class="information__item">
+            <h3 class="information__previews-title h6">Product Mail</h3>
+            <p class="information__previews-description subtitle-rg">
+              Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada
+              maecenas ac bibendum consectetur.
+            </p>
+            <img
+              loading="lazy"
+              src="images/message.svg"
+              alt="Product Mail"
+              class="information__previews-image"
+            />
+          </div>
+          <div class="information__item">
+            <h3 class="information__previews-title h6">Product UI</h3>
+            <p class="information__previews-description subtitle-rg">
+              Honsectetur eque nec nunc facilisis tellus tincidunt. Malesuada
+              maecenas ac bibendum consectetur.
+            </p>
+            <img
+              loading="lazy"
+              src="images/ui.svg"
+              alt="Product UI"
+              class="information__previews-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Testimonials -->
+    <section class="testimonials container">
+      <h2 class="testimonials__title h2 text-effect text-center">
+        What our clients say
+      </h2>
+      <p class="testimonials__description subtitle-rg text-center">
+        Rmet facilisi arcu odio urna aenean erat. Pellentesque in vitae lobortis
+        orci tincidunt facilisis. Pulvinar lacus ultricies turpis urna sapien.
+      </p>
+      <div class="testimonials__list swiper">
+        <div class="testimonials__list-wrapper swiper-wrapper">
+          <div class="testimonials__client swiper-slide">
+            <div class="testimonials__client-box">
+              <div class="testimonials__client-header flex">
+                <img
+                  loading="lazy"
+                  src="images/user-1.png"
+                  alt="Cameron Williamson"
+                  class="testimonials__client-image"
+                />
+                <div class="testimonials__client-details">
+                  <h3 class="testimonials__client-name paragraph-md">
+                    Cameron Williamson
+                  </h3>
+                  <p class="testimonials__client-role caption">Web Designer</p>
+                </div>
+              </div>
+              <p class="testimonials__client-content paragraph-rg">
+                Rorem ipsum dolor sit amet consectetur. Ac quam sem mi nibh
+                volutpat enim pellentesque. Proin iaculis nisl et neque sed
+                fermentum sollicitudin lectus.
+              </p>
+            </div>
+          </div>
+          <div class="testimonials__client swiper-slide">
+            <div class="testimonials__client-box">
+              <div class="testimonials__client-header flex">
+                <img
+                  loading="lazy"
+                  src="images/user-2.png"
+                  alt="Joe Doe"
+                  class="testimonials__client-image"
+                />
+                <div class="testimonials__client-details">
+                  <h3 class="testimonials__client-name paragraph-md">
+                    Joe Doe
+                  </h3>
+                  <p class="testimonials__client-role caption">
+                    Backen Developer
+                  </p>
+                </div>
+              </div>
+              <p class="testimonials__client-content paragraph-rg">
+                At viverra enim enim sed turpis orci cursus. Imperdiet eros
+                mauris sed sodales nisi interdum ac. Eu congue quis egestas
+                donec lectus
+              </p>
+            </div>
+          </div>
+          <div class="testimonials__client swiper-slide">
+            <div class="testimonials__client-box">
+              <div class="testimonials__client-header flex">
+                <img
+                  loading="lazy"
+                  src="images/user-3.png"
+                  alt="Jenny Wilson"
+                  class="testimonials__client-image"
+                />
+                <div class="testimonials__client-details">
+                  <h3 class="testimonials__client-name paragraph-md">
+                    Jenny Wilson
+                  </h3>
+                  <p class="testimonials__client-role caption">
+                    UI/UX Designer
+                  </p>
+                </div>
+              </div>
+              <p class="testimonials__client-content paragraph-rg">
+                Sed ut diam amet accumsan in. Elementum lorem aliquam venenatis
+                amet sit posuere sed sit. Aliquet suspendisse vitae placerat
+                donec.
+              </p>
+            </div>
+          </div>
+          <div class="testimonials__client swiper-slide">
+            <div class="testimonials__client-box">
+              <div class="testimonials__client-header flex">
+                <img
+                  loading="lazy"
+                  src="images/user-1.png"
+                  alt="Cameron Williamson"
+                  class="testimonials__client-image"
+                />
+                <div class="testimonials__client-details">
+                  <h3 class="testimonials__client-name paragraph-md">
+                    Cameron Williamson
+                  </h3>
+                  <p class="testimonials__client-role caption">Web Designer</p>
+                </div>
+              </div>
+              <p class="testimonials__client-content paragraph-rg">
+                Rorem ipsum dolor sit amet consectetur. Ac quam sem mi nibh
+                volutpat enim pellentesque. Proin iaculis nisl et neque sed
+                fermentum sollicitudin lectus.
+              </p>
+            </div>
+          </div>
+          <div class="testimonials__client swiper-slide">
+            <div class="testimonials__client-box">
+              <div class="testimonials__client-header flex">
+                <img
+                  loading="lazy"
+                  src="images/user-2.png"
+                  alt="Joe Doe"
+                  class="testimonials__client-image"
+                />
+                <div class="testimonials__client-details">
+                  <h3 class="testimonials__client-name paragraph-md">
+                    Joe Doe
+                  </h3>
+                  <p class="testimonials__client-role caption">
+                    Backen Developer
+                  </p>
+                </div>
+              </div>
+              <p class="testimonials__client-content paragraph-rg">
+                At viverra enim enim sed turpis orci cursus. Imperdiet eros
+                mauris sed sodales nisi interdum ac. Eu congue quis egestas
+                donec lectus
+              </p>
+            </div>
+          </div>
+          <div class="testimonials__client swiper-slide">
+            <div class="testimonials__client-box">
+              <div class="testimonials__client-header flex">
+                <img
+                  loading="lazy"
+                  src="images/user-3.png"
+                  alt="Jenny Wilson"
+                  class="testimonials__client-image"
+                />
+                <div class="testimonials__client-details">
+                  <h3 class="testimonials__client-name paragraph-md">
+                    Jenny Wilson
+                  </h3>
+                  <p class="testimonials__client-role caption">
+                    UI/UX Designer
+                  </p>
+                </div>
+              </div>
+              <p class="testimonials__client-content paragraph-rg">
+                Sed ut diam amet accumsan in. Elementum lorem aliquam venenatis
+                amet sit posuere sed sit. Aliquet suspendisse vitae placerat
+                donec.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials__controls flex flex-center">
+        <button
+          class="testimonials__controls-btn testimonials__controls-btn--prev flex flex-center btn-custom"
+        >
+          <i class="ri-arrow-left-line"></i>
+        </button>
+        <button
+          class="testimonials__controls-btn testimonials__controls-btn--next flex flex-center btn-custom"
+        >
+          <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Start CTA -->
+    <section class="cta container">
+      <div class="cta__wrapper flex-column">
+        <img
+          src="images/discord.svg"
+          loading="lazy"
+          alt="Discord Image"
+          class="cta__image"
+        />
+        <h2 class="cta__title h4 text-center">Join the community</h2>
+        <p class="cta__description subtitle-rg text-center">
+          Join our 400,000+ person community and contribute to a more private
+          and decentralized internet. Start for free.
+        </p>
+        <a href="#" class="cta__link link-btn-primary">Join Discord</a>
+      </div>
+    </section>
+
+    <!-- Start News -->
+    <section class="news container">
+      <div class="news__header flex">
+        <h2 class="news__title h2 text-effect">Product in the news</h2>
+        <a href="#" class="news__link link-btn-primary">Browse all news</a>
+      </div>
+      <div class="news__list">
+        <article class="news__article">
+          <div class="news__article-image">
+            <img
+              loading="lazy"
+              src="images/blog/blog-1.svg"
+              alt="Product Mail is taking on Gmail by betting on privacy"
+            />
+          </div>
+          <h3 class="news__article-title h6">
+            Product Mail is taking on Gmail by betting on privacy
+          </h3>
+          <p class="news__article-short paragraph-sm">
+            Ramet consectetur. Est porttitor mattis pharetra sit id viverra.
+            Vivamus mauris augue pharetra cras turpis faucibus elit urna.
+          </p>
+          <div class="news__article-footer flex">
+            <time datetime="2023-02-8" class="news__article-time paragraph-sm"
+              >February 8, 2023</time
+            >
+            <a href="#" class="news__article-more button-rg flex flex-center"
+              >Read more<i class="ri-arrow-right-long-line"></i
+            ></a>
+          </div>
+        </article>
+        <article class="news__article">
+          <div class="news__article-image">
+            <img
+              loading="lazy"
+              src="images/blog/blog-2.svg"
+              alt="Wants You To Sign Out Of Google Workspace Forever"
+            />
+          </div>
+          <h3 class="news__article-title h6">
+            Wants You To Sign Out Of Google Workspace Forever
+          </h3>
+          <p class="news__article-short paragraph-sm">
+            Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue
+            pharetra cras turpis faucibus elit urna.
+          </p>
+          <div class="news__article-footer flex">
+            <time datetime="2023-02-8" class="news__article-time paragraph-sm"
+              >February 8, 2023</time
+            >
+            <a href="#" class="news__article-more button-rg flex flex-center"
+              >Read more<i class="ri-arrow-right-long-line"></i
+            ></a>
+          </div>
+        </article>
+        <article class="news__article">
+          <div class="news__article-image">
+            <img
+              loading="lazy"
+              src="images/blog/blog-3.svg"
+              alt="The Best Email Encryption Services for 2023"
+            />
+          </div>
+          <h3 class="news__article-title h6">
+            The Best Email Encryption Services for 2023
+          </h3>
+          <p class="news__article-short paragraph-sm">
+            Dorttitor mattis pharetra sit id viverra. Vivamus mauris augue
+            pharetra cras turpis faucibus elit urna.
+          </p>
+          <div class="news__article-footer flex">
+            <time datetime="2023-02-8" class="news__article-time paragraph-sm"
+              >February 8, 2023</time
+            >
+            <a href="#" class="news__article-more button-rg flex flex-center"
+              >Read more<i class="ri-arrow-right-long-line"></i
+            ></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Start Footer -->
+    <footer class="footer container">
+      <div class="footer__main">
+        <div class="footer__news">
+          <a href="#" class="footer__news-logo">
+            <img src="images/logo.svg" loading="lazy" alt="logo" />
+          </a>
+          <div class="footer__news-form">
+            <h3 class="footer__news-title h6">Subscribe to our newsletter</h3>
+            <form>
+              <input
+                type="text"
+                class="footer__news-input"
+                aria-label="Enter your email"
+                placeholder="Enter your email"
+              />
+              <button
+                type="submit"
+                class="footer__news-submit btn-custom link-btn-primary"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__list">
+          <h3 class="footer__list-title">About Pages</h3>
+          <ul class="footer__list-menu flex-column">
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Home
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                About
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Contact
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Blog
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Blog Post
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Pricing
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Pricing Single
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__list">
+          <h3 class="footer__list-title">About Pages</h3>
+          <ul class="footer__list-menu flex-column">
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Features
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Careers
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Carees Single
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Request a Demo
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Login
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Sign Up
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__list">
+          <h3 class="footer__list-title">Utility Pages</h3>
+          <ul class="footer__list-menu flex-column">
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Style Guide
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Password Protected
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                404 Not Found
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Licences
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__list-link button-rg link-custom">
+                Changelog
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright flex">
+        <p class="footer__copyright-text paragraph-rg">
+          Copyright © Product | Designed by
+          <a href="https://webocean.io/" class="link-custom" target="_blank"
+            >Webocean</a
+          >
+          LTD - and Coded By <a href="#" class="link-custom">Ahmed Wael</a>
+        </p>
+        <div class="footer__copyright-social flex">
+          <a href="#" aria-label="facebook Link" class="link-custom"
+            ><i class="ri-facebook-fill"></i
+          ></a>
+          <a href="#" aria-label="twitter Link" class="link-custom"
+            ><i class="ri-twitter-fill"></i
+          ></a>
+          <a href="#" aria-label="linkedin Link" class="link-custom"
+            ><i class="ri-linkedin-fill"></i
+          ></a>
+          <a href="#" aria-label="instagram Link" class="link-custom"
+            ><i class="ri-instagram-fill"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script -->
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
